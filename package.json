@@ -1,0 +1,28 @@
+{
+  "name": "ms3",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "master",
+    "server",
+    "attorney",
+    "online"
+  ],
+  "author": "oldmud0",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^8.0.5",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "sequelize": "^5.21.3",
+    "sqlite3": "^4.1.1"
+  },
+  "devDependencies": {
+    "sequelize-cli": "^5.5.1"
+  }
+}
